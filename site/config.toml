@@ -1,9 +1,27 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "My new Victor-Hugo site"
+title = "Neal MacInnes"
+canonifyurls = true
+languagecode = "en"
+theme = "black-and-light"
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
+
+[params]
+  sitename = "Black & Light"
+
+[[menu.main]]
+    name = "About"
+    url  = "https://github.com/davidhampgonsalves/hugo-black-and-light-theme"
+[[menu.main]]
+    name = "Projects"
+    url  = "https://github.com/davidhampgonsalves/hugo-black-and-light-theme"
+[[menu.main]]
+    name = "Resume"
+    url  = "https://github.com/davidhampgonsalves/hugo-black-and-light-theme"
 
 # RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
+# See configuration options for more details:
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
